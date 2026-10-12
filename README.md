@@ -36,7 +36,7 @@ Place all data in `data/`. Some of it is downloaded by the scripts, and some you
 
 | Data | Source | Included here? |
 |---|---|---|
-| Monthly stream gauge discharge (`data/discharge_htm/<station>.htm`, one file per station) | Downloaded manually from [Department of Water and Environment Regulation](https://experience.arcgis.com/experience/c79aedd210de425a95352f0c5adf29e5) on 21/04/2026. | Yes (in `data/discharge_htm/`) |
+| Monthly stream gauge discharge (`data/discharge_htm/<station>.htm`, one file per station) | Downloaded manually from [Department of Water and Environmental Regulation](https://experience.arcgis.com/experience/c79aedd210de425a95352f0c5adf29e5) on 21/04/2026. | Yes (in `data/discharge_htm/`) |
 | `Stream Gauge Data.xlsx` (columns `Station`, `Site Name`, `Latitude`, `Longitude`, `GgStn Catchment Area (km2)`) | A hand-made table of the gauges. | Yes (small, in `data/`) |
 | Catchment shapefile (DWER Hydrographic Catchments – Subcatchments, DWER-030), in `data/shapefile/` | **Supply yourself.** Public download from [WA Data Catalogue](https://catalogue.data.wa.gov.au/dataset/hydrographic-catchments-subcatchments), accessed 20/04/2026. | No (too large for GitHub) |
 | SILO daily rainfall | Downloaded by `Acquire_Silo_Points_Data.py`. Set your email in `SILO_USERNAME`. | No (generated) |
