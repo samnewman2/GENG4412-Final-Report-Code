@@ -53,7 +53,7 @@ pip install -r requirements.txt
 python Stream_Gauge_Extract_Discharge.py     # then each script in the order above
 ```
 
-Python **[version]** was used.
+Python **3.10.11** was used.
 
 ## Known data limitations
 
@@ -68,4 +68,4 @@ Python **[version]** was used.
 
 ## Contact
 
-Sam Newman, **[email]**
+Sam Newman, **23457606@student.uwa.edu.au**
